@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Sanity suite for Google]" parallel="tests">
+  <parameter name="browser" value="firefox"/>
+  <listeners>
+    <listener class-name="org.testng.suites.RetryLogicRuntime"/>
+    <listener class-name="org.testng.suites.ExtentReporterNG"/>
+  </listeners>
+  <test name="Default test(failed)" parallel="tests">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="org.testng.suites.FacebookPage">
+        <methods>
+          <include name="google"/>
+        </methods>
+      </class> <!-- org.testng.suites.FacebookPage -->
+      <class name="org.testng.suites.GooglePage">
+        <methods>
+          <include name="google"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- org.testng.suites.GooglePage -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Sanity suite for Google] -->

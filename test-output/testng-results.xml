@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Sanity suite for Google" duration-ms="72557" started-at="2018-05-21T11:26:07Z" finished-at="2018-05-21T11:27:19Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="72557" started-at="2018-05-21T11:26:07Z" finished-at="2018-05-21T11:27:19Z">
+      <class name="org.testng.suites.FacebookPage">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:org.testng.suites.FacebookPage@5c7fa833]" name="setUp" is-config="true" duration-ms="3736" started-at="2018-05-21T16:56:34Z" finished-at="2018-05-21T16:56:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="google()[pri:0, instance:org.testng.suites.FacebookPage@5c7fa833]" name="google" duration-ms="36378" started-at="2018-05-21T16:56:38Z" finished-at="2018-05-21T16:57:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- google -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.testng.suites.FacebookPage@5c7fa833]" name="tearDown" is-config="true" duration-ms="5001" started-at="2018-05-21T16:57:14Z" finished-at="2018-05-21T16:57:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.testng.suites.FacebookPage -->
+      <class name="org.testng.suites.GooglePage">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:org.testng.suites.GooglePage@457e2f02]" name="setUp" is-config="true" duration-ms="5241" started-at="2018-05-21T16:56:07Z" finished-at="2018-05-21T16:56:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="google()[pri:0, instance:org.testng.suites.GooglePage@457e2f02]" name="google" duration-ms="17175" started-at="2018-05-21T16:56:12Z" finished-at="2018-05-21T16:56:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- google -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.testng.suites.GooglePage@457e2f02]" name="tearDown" is-config="true" duration-ms="5001" started-at="2018-05-21T16:56:29Z" finished-at="2018-05-21T16:56:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.testng.suites.GooglePage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Sanity suite for Google -->
+</testng-results>

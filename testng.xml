@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Sanity suite for Google" parallel="tests">
+
+	<listeners>
+		<listener class-name="org.testng.suites.RetryLogicRuntime" />
+		<listener class-name="org.testng.suites.ExtentReporterNG" />
+	</listeners>
+	
+	<test name="Default test">
+		<parameter name="browser" value="firefox" />
+		<classes>
+			<class name="org.testng.suites.GooglePage" />
+			<class name="org.testng.suites.FacebookPage" />
+		</classes>
+	</test>
+	
+</suite> 
