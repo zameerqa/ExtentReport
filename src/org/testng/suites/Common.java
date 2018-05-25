@@ -29,7 +29,8 @@ public class Common {
 			driver=new FirefoxDriver();
 		}
 		else if(browser.equals("chrome")){
-
+			
+			//System Property
 			System.setProperty("webdriver.chrome.driver", "C:\\Users\\Administrator\\Desktop\\Selenium\\chrome driver\\chromedriver.exe");
 			driver=new ChromeDriver();
 		}
@@ -40,6 +41,7 @@ public class Common {
 	}
 	@AfterMethod
 	public void tearDown() throws Exception{
+		//Pause the execution
 		Thread.sleep(5000);
 		//driver.quit();
 	}
