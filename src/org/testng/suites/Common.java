@@ -41,7 +41,7 @@ public class Common {
 	}
 	@AfterMethod
 	public void tearDown() throws Exception{
-		//Pause the execution
+		
 		Thread.sleep(5000);
 		//driver.quit();
 	}
